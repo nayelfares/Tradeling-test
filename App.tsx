@@ -11,11 +11,7 @@ const App = () => {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
-  return (
-    <SafeAreaView style={backgroundStyle}>
-      <RegisterationScreen />
-    </SafeAreaView>
-  );
+  return <RegisterationScreen />;
 };
 
 export default App;

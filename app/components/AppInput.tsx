@@ -33,24 +33,28 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     width: '80%',
+    height: 74,
     marginStart: '10%',
     marginEnd: '10%',
     backgroundColor: '#E8E8E8',
     borderRadius: 10,
+    marginTop: 20,
   },
   icon: {
     flex: 1,
+    marginStart: 12,
+    justifyContent: 'center',
   },
   text: {
     flex: 9,
     alignContent: 'center',
     justifyContent: 'center',
-    marginTop: '3%',
     color: '#3C3C43',
     fontSize: 16,
     paddingLeft: 24,
     textAlign: 'left',
     backgroundColor: '#00000000',
+    marginBottom: 16,
   },
 });
 
